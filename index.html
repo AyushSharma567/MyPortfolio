@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ayush Sharma</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="http://127.0.0.1:5500/cleanfolio-minimal-main/index.html" class="link"
+          >AS.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Ayush Sharma.</span></h1>
+        <h2 class="about__role">Aspiring Software Development Engineer .</h2>
+        <p class="about__desc">
+          I'm a passionate Software Development Engineer with a B.E. in Computer Science. 
+          My passion for technology drives me to constantly learn and explore new ways to create innovative and efficient software solutions.
+          Currently, I’m on the lookout for opportunities where I can apply my skills to develop impactful and user-friendly applications.
+        </p>
+ 
+        <!-- <p class="about__desc">
+
+        I’m constantly learning and staying updated with the latest trends in web development. 
+        My focus is on creating clean, maintainable code and delivering seamless user experiences. 
+        I’m eager to contribute my skills to meaningful projects and collaborate with like-minded professionals.
+        </p> -->
+
+
+        <div class="about__contact center">
+          <a href="Assets/Ayush_Sharma_s_Résumé.pdf">
+            <span class="btn btn--outline"> Resume </span>
+          </a>
+
+          <a
+            href="https://github.com/AyushSharma567"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/ayush-sharma456/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <br><br><br><br><br><br>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Travel Companion App</h3>
+            <!-- <img src="Assets/"> -->
+            <p class="project__description">
+            Developed personalized travel lists, a dynamic chatbot, and a translator for seamless travel planning and communication.
+            Implemented powerful search functionality and real-time location data using Google Maps API.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">google Firebase</li>
+              <li class="project__stack-item">google api</li>
+              <li class="project__stack-item">Dialogflow</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com/AyushSharma567/project-2022.git"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- <a
+              href=""
+              aria-label="live preview"
+              class="link link--icon" 
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>-->
+          </div>
+
+          <div class="project">
+            <h3>Stock Analysis using R shiny</h3>
+            <p class="project__description">
+              Utilized R and RStudio to analyze buying and selling patterns in stock markets, focusing on S&P 500 companies.
+               The dataset was sourced from Yahoo Finance, and we developed an interactive dashboard to visualize the results.
+            </p>
+            <ul class="project__stack" >
+              <li class="project__stack-item">web service </li>
+              <li class="project__stack-item">R</li>
+              <li class="project__stack-item">R shiny</li>
+              <li class="project__stack-item">GG Plot</li>
+              <li class="project__stack-item">Yahoo Finance dataset</li>
+            </ul>
+
+            <a
+              href="https://github.com/AyushSharma567/Stock-Analysis.git"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <h3>Expense Tracker</h3>
+            <p class="project__description">The Expense Tracker is a web app for managing personal finances. 
+              Users can log and categorize transactions, view data through interactive charts, and export records. Built with Node.js, Express.js, and MongoDB,
+               it features a responsive design and React.js frontend for seamless access on all devices.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">Node.js</li>
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Express.js</li>
+              <li class="project__stack-item">MongoDB</li>
+              <li class="project__stack-item"> Chart.js</li>
+
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>-->
+          </div> 
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">C/C++</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">DSA in c++</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:ayush181101@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        class="link footer__link"
+      >
+        Created By Ayush Sharma.
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
