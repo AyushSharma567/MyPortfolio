@@ -1,2 +1,3 @@
 # MyPortfolio
-just some fun with html, css and js nothing more 
+
+A portfolio  built with HTML, CSS, and JavaScript.
