@@ -28,7 +28,9 @@ body {
 
 .light {
   --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
+  background: hsla(120, 93%, 84%, 1);
+  background: linear-gradient(90deg, hsla(120, 93%, 84%, 1) 0%, hsla(185, 90%, 51%, 1) 100%);
+  --clr-bg-alt:  hsla(120, 93%, 84%, 1);
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
@@ -37,6 +39,8 @@ body {
 
 .dark {
   --clr-bg: #23283e;
+  background: hsla(213, 77%, 14%, 1);
+  background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
@@ -236,6 +240,12 @@ main {
   text-transform: uppercase;
 }
 
+.section__contact {
+  margin-top: 1em;
+  gap: 15px;
+}
+
+
 .nav__list {
   margin-right: 1.5em;
   display: flex;
@@ -338,7 +348,7 @@ main {
 }
 
 .contact {
-  flex-direction: column;
+  flex-direction:column ;
 }
 
 .footer {
@@ -412,3 +422,4 @@ main {
     display: none;
   }
 }
+
